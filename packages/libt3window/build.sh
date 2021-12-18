@@ -1,0 +1,9 @@
+TERMUX_PKG_HOMEPAGE=https://os.ghalkes.nl/t3/libt3config.html
+TERMUX_PKG_DESCRIPTION="Tilde Terminal Toolkit"
+TERMUX_PKG_LICENSE="GPL-3.0"
+TERMUX_PKG_MAINTAINER="@termux"
+TERMUX_PKG_VERSION=0.4.0
+TERMUX_PKG_SRCURL=https://os.ghalkes.nl/dist/libt3window-${TERMUX_PKG_VERSION}.tar.bz2
+TERMUX_PKG_SHA256=7ebceee248a6032eef1cf00b2cd20aa5a7a14114441b40bacdec03858ce40d63
+TERMUX_PKG_DEPENDS="libtranscript"
+TERMUX_PKG_BUILD_IN_SRC=true
